@@ -1,0 +1,41 @@
+.avatarBox {
+  display: flex;
+  background-color: #fff;
+}
+.avatar {
+  position: relative;
+  width: 30%;
+  padding-bottom: 30%;
+  border: 1px solid #e1e1e1;
+  margin-right: 1em;
+  overflow: hidden;
+}
+.avatar img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.avatar:after {
+  content: "+";
+  position: absolute;
+  font-size: 60px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+.info {
+  flex: 1;
+  text-align: left;
+}
+.tagsBox {
+  display: flex;
+  min-width: 50vw;
+  background-color: #f7f7f7;
+}
+.tag {
+  border-radius: 5px;
+  border: 1px solid #f33;
+  margin-right: auto;
+}

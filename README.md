@@ -1,2 +1,0 @@
-# ImageClip
-Created with CodeSandbox
