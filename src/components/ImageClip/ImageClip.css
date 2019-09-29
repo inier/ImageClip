@@ -1,0 +1,18 @@
+.imageView {
+  position: relative;
+  border: 1px solid #e1e1e1;
+  margin: 10px 20px;
+  overflow: hidden;
+  font-size: 0;
+}
+.mask {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px dotted #f33;
+  z-index: 2;
+  /* resize: both;
+  overflow: auto;
+  cursor: se-resize; */
+}
